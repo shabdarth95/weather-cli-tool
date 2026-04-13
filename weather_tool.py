@@ -28,6 +28,7 @@ def display_weather(data, city):
     print(f"  UV Index     : {current['uvIndex']}")
     print(f"  Sunrise      : {astro['sunrise']}")
     print(f"  Sunset       : {astro['sunset']}")
+    print(f"  Moonrise     : {astro['moonrise']}")
     print(f"{'='*35}\n")
 
 def save_to_file(data, city):
